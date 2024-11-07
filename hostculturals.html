@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hostculturals - Wizalerts</title>
+    <meta property="og:title" content="hostculturals - Wizalerts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./hostculturals.css" rel="stylesheet" />
+
+      <div class="hostculturals-container">
+        <div class="hostculturals-container1">
+          <div class="hostculturals-container2">
+            <nav data-role="Header" class="hostculturals-navbar">
+              <a href="hostpre.html" class="hostculturals-navlink button">
+                &lt;- go back
+              </a>
+              <div class="hostculturals-right-side">
+                <div class="hostculturals-links-container">
+                  <a href="index.html" class="hostculturals-navlink1">Home</a>
+                  <a href="eventmap.html" class="hostculturals-navlink2">Map</a>
+                  <span class="hostculturals-text">Host</span>
+                  <span class="hostculturals-text01">Message</span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/images-removebg-preview-200h.png"
+                  class="hostculturals-image"
+                />
+              </div>
+            </nav>
+          </div>
+          <form
+            action="culturalhost.php"
+            method="post"
+            class="hostculturals-form"
+          >
+            <div class="hostculturals-container3">
+              <div class="hostculturals-container4">
+                <h1 class="hostculturals-text02">
+                  CULTURALS REGISTRATION FORM
+                </h1>
+              </div>
+              <input
+                type="number"
+                name="uniqueid"
+                disabled=""
+                placeholder="Unique Id"
+                class="input hostculturals-textinput"
+              />
+              <button type="button" class="button hostculturals-button">
+                Unique Id
+              </button>
+              <button
+                name="eventlogo"
+                type="button"
+                class="button hostculturals-button1"
+              >
+                <span>
+                  <span>Upload</span>
+                  <br />
+                </span>
+              </button>
+              <textarea
+                name="text"
+                placeholder="Description"
+                class="textarea hostculturals-textarea"
+              ></textarea>
+              <h1 class="hostculturals-text06">CONTACT DETAILS</h1>
+              <button
+                name="eventbanner"
+                type="button"
+                class="button hostculturals-button2"
+              >
+                Upload your Banner
+              </button>
+              <div class="hostculturals-container5">
+                <h1 class="hostculturals-text07">
+                  <br class="hostculturals-text08" />
+                  <span>REGISTRATION DETAILS</span>
+                  <br />
+                </h1>
+              </div>
+              <input
+                type="number"
+                name="duration"
+                required=""
+                placeholder="Duration"
+                class="input hostculturals-textinput01"
+              />
+              <input
+                type="date"
+                name="startdate"
+                required=""
+                placeholder="Start  Date"
+                class="input hostculturals-textinput02"
+              />
+              <input
+                type="text"
+                name="organiser"
+                required=""
+                autofocus=""
+                placeholder="organizer"
+                class="input hostculturals-textinput03"
+              />
+              <input
+                type="text"
+                name="brochurelink"
+                required=""
+                placeholder="Link"
+                class="input hostculturals-textinput04"
+              />
+              <input
+                type="text"
+                name="accom"
+                required=""
+                placeholder="Accomodation"
+                class="input hostculturals-textinput05"
+              />
+              <input
+                type="email"
+                name="pmail1"
+                required=""
+                placeholder="Email"
+                class="input hostculturals-textinput06"
+              />
+              <input
+                type="text"
+                name="person1"
+                required=""
+                placeholder="Name"
+                class="input hostculturals-textinput07"
+              />
+              <input
+                type="text"
+                name="organizerurl"
+                required=""
+                placeholder="Organizer URL"
+                class="input hostculturals-textinput08"
+              />
+              <input
+                type="text"
+                name="person2"
+                required=""
+                placeholder="Name"
+                class="input hostculturals-textinput09"
+              />
+              <input
+                type="password"
+                name="pmail2"
+                required=""
+                placeholder="Email"
+                class="input hostculturals-textinput10"
+              />
+              <input
+                type="text"
+                name="reglink"
+                required=""
+                placeholder="Registration Link"
+                class="input hostculturals-textinput11"
+              />
+              <input
+                type="text"
+                name="regfee"
+                placeholder="Registration fees"
+                class="input hostculturals-textinput12"
+              />
+              <input
+                type="number"
+                name="pphone1"
+                required=""
+                placeholder="+91"
+                class="input hostculturals-textinput13"
+              />
+              <input
+                type="number"
+                name="pphone2"
+                required=""
+                placeholder="+91"
+                class="input hostculturals-textinput14"
+              />
+              <input
+                type="text"
+                name="guest"
+                placeholder="Guest"
+                class="input hostculturals-textinput15"
+              />
+              <input
+                type="text"
+                name="location"
+                required=""
+                placeholder="Location"
+                class="input hostculturals-textinput16"
+              />
+              <input
+                type="text"
+                name="country"
+                required=""
+                placeholder="Country"
+                class="input hostculturals-textinput17"
+              />
+              <input
+                type="text"
+                name="state"
+                required=""
+                placeholder="State"
+                class="input hostculturals-textinput18"
+              />
+              <input
+                type="date"
+                name="enddate"
+                required=""
+                placeholder="End Date"
+                class="input hostculturals-textinput19"
+              />
+              <img
+                alt="image"
+                src="public/external/logo-200h.png"
+                class="hostculturals-image1"
+              />
+              <h1 class="hostculturals-text11">Organizer</h1>
+              <h1 class="hostculturals-text12">Fest Description</h1>
+              <h1 class="hostculturals-text13">Culturals Related Tags</h1>
+              <h1 class="hostculturals-text14">Fest Guest</h1>
+              <h1 class="hostculturals-text15">Duration</h1>
+              <h1 class="hostculturals-text16">
+                <span>Country</span>
+                <br />
+                <br />
+              </h1>
+              <h1 class="hostculturals-text20">Start Date</h1>
+              <h1 class="hostculturals-text21">End Date</h1>
+              <h1 class="hostculturals-text22">Fest Name</h1>
+              <input
+                type="text"
+                name="name"
+                required=""
+                placeholder="Name"
+                class="input hostculturals-textinput20"
+              />
+              <h1 class="hostculturals-text23">State</h1>
+              <h1 class="hostculturals-text24">
+                <span>Location/</span>
+                <br />
+                <span>Platform</span>
+                <br />
+              </h1>
+              <h1 class="hostculturals-text29">Brochure Link</h1>
+              <h1 class="hostculturals-text30">Accomodation</h1>
+              <h1 class="hostculturals-text31">E mail</h1>
+              <h1 class="hostculturals-text32">E mail</h1>
+              <h1 class="hostculturals-text33">Phone num</h1>
+              <h1 class="hostculturals-text34">Phone num</h1>
+              <h1 class="hostculturals-text35">Person 1</h1>
+              <h1 class="hostculturals-text36">Person 2</h1>
+              <h1 class="hostculturals-text37">
+                <span>Registration</span>
+                <br />
+                <span>Link</span>
+              </h1>
+              <h1 class="hostculturals-text41">
+                <span>Registration</span>
+                <br />
+                <span>Fees</span>
+              </h1>
+              <h1 class="hostculturals-text45">Organiser URL</h1>
+              <textarea
+                name="keyword"
+                placeholder="Keywords separted by Comma"
+                class="textarea hostculturals-textarea1"
+              ></textarea>
+              <button
+                name="submit"
+                type="submit"
+                class="button hostculturals-button3"
+              >
+                <span>
+                  <span>Submit</span>
+                  <br />
+                </span>
+              </button>
+              <div
+                data-thq="thq-dropdown"
+                class="hostculturals-thq-dropdown list-item"
+              >
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="hostculturals-dropdown-toggle"
+                >
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    class="hostculturals-dropdown-arrow"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="hostculturals-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data-thq="thq-dropdown-list"
+                  class="hostculturals-dropdown-list"
+                >
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostculturals-dropdown list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostculturals-dropdown-toggle1"
+                    >
+                      <span class="hostculturals-text49">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostculturals-dropdown1 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostculturals-dropdown-toggle2"
+                    >
+                      <span class="hostculturals-text50">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostculturals-dropdown2 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostculturals-dropdown-toggle3"
+                    >
+                      <span class="hostculturals-text51">Sub-menu Item</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h1 class="hostculturals-text52">Mode</h1>
+              <h1 class="hostculturals-text53">Fest Theme</h1>
+              <select name="mode" class="hostculturals-select">
+                <option value="both" selected="">Both</option>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+              </select>
+              <select name="Theme" class="hostculturals-select1">
+                <option value="all" selected="">All</option>
+                <option value="Option 1">Option 1</option>
+                <option value="science and tech">Science And Tech</option>
+                <option value="fashion">Fashion</option>
+                <option value="Option 2">Option 2</option>
+                <option value="business">Business</option>
+                <option value="Option 3">Option 3</option>
+                <option value="performing and visual arts">
+                  Performing And Visual Arts
+                </option>
+                <option value="education">Education</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hostiv - Wizalerts</title>
+    <meta property="og:title" content="hostiv - Wizalerts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./hostiv.css" rel="stylesheet" />
+
+      <div class="hostiv-container">
+        <div class="hostiv-container1">
+          <div class="hostiv-container2">
+            <nav data-role="Header" class="hostiv-navbar">
+              <a href="hostpre.html" class="hostiv-navlink button">
+                &lt;- go back
+              </a>
+              <div class="hostiv-right-side">
+                <div class="hostiv-links-container">
+                  <a href="index.html" class="hostiv-navlink1">Home</a>
+                  <a href="eventmap.html" class="hostiv-navlink2">Map</a>
+                  <span class="hostiv-text">Host</span>
+                  <span class="hostiv-text01">Message</span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/images-removebg-preview-200h.png"
+                  class="hostiv-image"
+                />
+              </div>
+            </nav>
+          </div>
+          <form action="ivhost.php" method="post" class="hostiv-form">
+            <div class="hostiv-container3">
+              <div class="hostiv-container4">
+                <h1 class="hostiv-text02">IV REGISTRATION FORM</h1>
+              </div>
+              <input
+                type="number"
+                name="uniqueid"
+                disabled=""
+                placeholder="Unique Id"
+                class="input hostiv-textinput"
+              />
+              <button type="button" class="button hostiv-button">
+                Unique Id
+              </button>
+              <select name="fees" required="" class="hostiv-select">
+                <option value="Yes" selected="">Yes</option>
+                <option value="No">No</option>
+              </select>
+              <button
+                name="eventlogo"
+                type="button"
+                class="button hostiv-button1"
+              >
+                <span>
+                  <span>Upload</span>
+                  <br />
+                </span>
+              </button>
+              <h1 class="hostiv-text06">CONTACT DETAILS</h1>
+              <input
+                type="text"
+                name="Feedetails"
+                required=""
+                placeholder="Fee details"
+                class="input hostiv-textinput01"
+              />
+              <input
+                type="text"
+                name="Organiser"
+                required=""
+                autofocus=""
+                placeholder="organizer"
+                class="input hostiv-textinput02"
+              />
+              <input
+                type="text"
+                name="streams"
+                required=""
+                placeholder="streams"
+                class="input hostiv-textinput03"
+              />
+              <input
+                type="email"
+                name="pmail1"
+                required=""
+                placeholder="Email"
+                class="input hostiv-textinput04"
+              />
+              <input
+                type="text"
+                name="person1"
+                required=""
+                placeholder="Name"
+                class="input hostiv-textinput05"
+              />
+              <input
+                type="number"
+                name="noofdays"
+                required=""
+                placeholder="No of days"
+                class="input hostiv-textinput06"
+              />
+              <input
+                type="text"
+                name="person2"
+                required=""
+                placeholder="Name"
+                class="input hostiv-textinput07"
+              />
+              <input
+                type="email"
+                name="pmail2"
+                required=""
+                placeholder="Email"
+                class="input hostiv-textinput08"
+              />
+              <input
+                type="number"
+                name="pphone1"
+                required=""
+                placeholder="+91"
+                class="input hostiv-textinput09"
+              />
+              <input
+                type="number"
+                name="pphone2"
+                required=""
+                placeholder="+91"
+                class="input hostiv-textinput10"
+              />
+              <input
+                type="text"
+                name="city"
+                placeholder="City"
+                class="input hostiv-textinput11"
+              />
+              <input
+                type="number"
+                name="no of count"
+                required=""
+                placeholder="No of Count"
+                class="input hostiv-textinput12"
+              />
+              <input
+                type="text"
+                name="Company"
+                required=""
+                placeholder="Company name"
+                class="input hostiv-textinput13"
+              />
+              <img
+                alt="image"
+                src="public/external/logo-200h.png"
+                class="hostiv-image1"
+              />
+              <h1 class="hostiv-text07">Organizer</h1>
+              <h1 class="hostiv-text08">
+                <span>Company</span>
+                <br />
+                <span>Name</span>
+              </h1>
+              <h1 class="hostiv-text12">Event Related Tags</h1>
+              <h1 class="hostiv-text13">Fee</h1>
+              <h1 class="hostiv-text14">
+                <span>If Yes Give</span>
+                <br />
+                <span>Fee Details</span>
+              </h1>
+              <h1 class="hostiv-text18">
+                <span>Streams</span>
+                <br />
+              </h1>
+              <h1 class="hostiv-text21">No of Count</h1>
+              <h1 class="hostiv-text22">Location</h1>
+              <input
+                type="text"
+                name="location"
+                required=""
+                placeholder="Location"
+                class="input hostiv-textinput14"
+              />
+              <h1 class="hostiv-text23">City</h1>
+              <h1 class="hostiv-text24">No of&nbsp; days</h1>
+              <h1 class="hostiv-text25">E mail</h1>
+              <h1 class="hostiv-text26">E mail</h1>
+              <h1 class="hostiv-text27">Phone num</h1>
+              <h1 class="hostiv-text28">Phone num</h1>
+              <h1 class="hostiv-text29">Person 1</h1>
+              <h1 class="hostiv-text30">Person 2</h1>
+              <textarea
+                name="keyword"
+                placeholder="Keywords separted by Comma"
+                class="textarea hostiv-textarea"
+              ></textarea>
+              <button name="submit" type="submit" class="button hostiv-button2">
+                <span>
+                  <span>Submit</span>
+                  <br />
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

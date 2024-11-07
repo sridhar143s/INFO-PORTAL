@@ -1,0 +1,398 @@
+.workshoppage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.workshoppage-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.workshoppage-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.workshoppage-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.workshoppage-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.workshoppage-text01 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.workshoppage-text02 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.workshoppage-text03 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.workshoppage-image {
+  width: 200px;
+  object-fit: cover;
+}
+.workshoppage-icon {
+  top: 133px;
+  left: 143px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.workshoppage-text04 {
+  top: 134px;
+  left: 166px;
+  position: absolute;
+  font-weight: 700;
+  text-decoration: none;
+}
+.workshoppage-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workshoppage-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.workshoppage-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.workshoppage-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.workshoppage-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.workshoppage-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.workshoppage-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.workshoppage-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.workshoppage-container5 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.workshoppage-container6 {
+  flex: 0 0 auto;
+  display: flex;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.workshoppage-container6:hover {
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+}
+.workshoppage-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.workshoppage-container7 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.workshoppage-container8 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.workshoppage-icon08 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1600px) {
+  .workshoppage-text {
+    padding-top: 0.5px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .workshoppage-text01 {
+    padding-top: 0.5px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .workshoppage-text02 {
+    padding-top: 0.5px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .workshoppage-text03 {
+    padding-top: 0.5px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .workshoppage-image {
+    width: 40px;
+    height: 41px;
+  }
+  .workshoppage-icon {
+    top: 39px;
+    left: 165px;
+    position: absolute;
+  }
+  .workshoppage-text04 {
+    top: 37px;
+    left: 192px;
+    font-weight: 700;
+  }
+  .workshoppage-container1 {
+    position: relative;
+  }
+  .workshoppage-container2 {
+    height: 270px;
+  }
+  .workshoppage-image1 {
+    width: 80%;
+    align-self: stretch;
+  }
+  .workshoppage-container3 {
+    left: 235px;
+    width: 70%;
+    bottom: 4px;
+    height: 20%;
+    margin: auto;
+    position: absolute;
+    box-shadow: 2px 2px 5px 0px #8c00ff;
+    border-color: #000000;
+    border-width: 0px;
+    background-color: #ffffff;
+  }
+  .workshoppage-text05 {
+    top: 14px;
+    left: 45px;
+    position: absolute;
+    font-weight: 700;
+  }
+  .workshoppage-select {
+    top: 13px;
+    left: 121px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .workshoppage-icon02 {
+    top: 25%;
+    left: 32%;
+    position: absolute;
+  }
+  .workshoppage-textinput {
+    top: 25%;
+    left: 35%;
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 3px;
+  }
+  .workshoppage-icon04 {
+    top: 25%;
+    left: 57%;
+    position: absolute;
+  }
+  .workshoppage-textinput1 {
+    top: 20%;
+    left: 60%;
+    position: absolute;
+    padding-top: var(--dl-space-space-halfunit);
+  }
+  .workshoppage-select1 {
+    top: 20%;
+    left: 89%;
+    height: 35px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .workshoppage-icon06 {
+    top: 35%;
+    left: 86%;
+    position: absolute;
+  }
+  .workshoppage-container4 {
+    top: 375px;
+    left: 0px;
+    height: 66px;
+    position: absolute;
+  }
+  .workshoppage-text06 {
+    top: 25%;
+    left: 10%;
+    color: rgb(94, 8, 92);
+    position: absolute;
+    font-size: 24px;
+    align-self: flex-start;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+  }
+  .workshoppage-container5 {
+    top: 450px;
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.26);
+  }
+  .workshoppage-container6 {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    align-self: center;
+    box-shadow: 5px 5px 10px 0px rgba(190, 181, 181, 0.68);
+    margin-top: 1%;
+    align-items: flex-start;
+    border-color: #ffffff;
+    border-style: solid;
+    margin-bottom: 1%;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #ffffff;
+  }
+  .workshoppage-image2 {
+    width: 150px;
+    height: 150px;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+  }
+  .workshoppage-container7 {
+    width: 600px;
+    height: 150px;
+    padding-right: 3px;
+  }
+  .workshoppage-text07 {
+    top: 4px;
+    left: 155px;
+    position: absolute;
+    padding-top: 0px;
+  }
+  .workshoppage-text08 {
+    top: 39px;
+    left: 157px;
+    position: absolute;
+    font-size: 12px;
+  }
+  .workshoppage-text09 {
+    top: 37px;
+    left: 304px;
+    position: absolute;
+    font-size: 12px;
+  }
+  .workshoppage-text10 {
+    top: 91px;
+    left: 159px;
+    position: absolute;
+  }
+  .workshoppage-text11 {
+    top: 63px;
+    left: 158px;
+    position: absolute;
+  }
+  .workshoppage-text12 {
+    top: 97px;
+    left: 676px;
+    position: absolute;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .workshoppage-text13 {
+    left: 159px;
+    bottom: 9px;
+    position: absolute;
+  }
+  .workshoppage-container8 {
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 150px;
+    position: absolute;
+  }
+  .workshoppage-button {
+    top: 84px;
+    left: 17px;
+    position: absolute;
+    align-self: center;
+    padding-right: var(--dl-space-space-unit);
+    background-color: #17898c;
+  }
+  .workshoppage-icon08 {
+    top: 40px;
+    fill: #e61aff;
+    left: 55px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .workshoppage-text05 {
+    top: 7px;
+    left: 148px;
+  }
+}
+@media(max-width: 767px) {
+  .workshoppage-right-side {
+    display: none;
+  }
+}

@@ -1,0 +1,233 @@
+.eventcollegemap-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.eventcollegemap-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventcollegemap-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventcollegemap-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventcollegemap-navlink {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.eventcollegemap-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.eventcollegemap-navlink1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.eventcollegemap-text1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.eventcollegemap-image {
+  width: 200px;
+  object-fit: cover;
+}
+.eventcollegemap-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.eventcollegemap-container2 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.eventcollegemap-container3 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 1600px) {
+  .eventcollegemap-navbar {
+    align-self: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: 10px;
+  }
+  .eventcollegemap-logo {
+    color: #9309a4;
+  }
+  .eventcollegemap-navlink {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventcollegemap-text {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    border-color: #0056f3;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+  .eventcollegemap-navlink1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventcollegemap-text1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventcollegemap-image {
+    width: 40px;
+    height: 41px;
+  }
+  .eventcollegemap-container1 {
+    height: 655px;
+    position: relative;
+  }
+  .eventcollegemap-container2 {
+    left: 322px;
+    width: 1220px;
+    bottom: -4px;
+    height: 100%;
+    position: absolute;
+  }
+  .eventcollegemap-container3 {
+    left: 0px;
+    width: 320px;
+    bottom: 2px;
+    height: 658px;
+    position: absolute;
+    background-color: #d7ebeb;
+  }
+  .eventcollegemap-text2 {
+    top: 58px;
+    left: 41px;
+    position: absolute;
+  }
+  .eventcollegemap-textinput {
+    top: 98px;
+    left: 83px;
+    width: 189px;
+    height: 28px;
+    position: absolute;
+  }
+  .eventcollegemap-text3 {
+    top: 162px;
+    left: 40px;
+    position: absolute;
+  }
+  .eventcollegemap-textinput1 {
+    top: 196px;
+    left: 82px;
+    width: 193px;
+    height: 32px;
+    position: absolute;
+  }
+  .eventcollegemap-text4 {
+    top: 256px;
+    left: 38px;
+    position: absolute;
+  }
+  .eventcollegemap-select {
+    top: 307px;
+    left: 82px;
+    width: 190px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .eventcollegemap-text5 {
+    top: 352px;
+    left: 41px;
+    position: absolute;
+  }
+  .eventcollegemap-textinput2 {
+    top: 405px;
+    left: 83px;
+    width: 195px;
+    height: 34px;
+    position: absolute;
+  }
+  .eventcollegemap-button {
+    left: 24px;
+    color: #ffffff;
+    bottom: 114px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 0px;
+    padding-right: 1em;
+    background-color: #151e9a;
+  }
+  .eventcollegemap-button1 {
+    top: 504px;
+    left: 158px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 0px;
+    padding-right: 1em;
+    background-color: rgb(21, 30, 154);
+  }
+}
+@media(max-width: 1200px) {
+  .eventcollegemap-container {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+}
+@media(max-width: 767px) {
+  .eventcollegemap-right-side {
+    display: none;
+  }
+}

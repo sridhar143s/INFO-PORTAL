@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hostingpage - Wizalerts</title>
+    <meta property="og:title" content="hostingpage - Wizalerts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./hostingpage.css" rel="stylesheet" />
+
+      <div class="hostingpage-container">
+        <div class="hostingpage-container1">
+          <div class="hostingpage-container2">
+            <nav data-role="Header" class="hostingpage-navbar">
+              <a href="hostpre.html" class="hostingpage-navlink button">
+                &lt;- go back
+              </a>
+              <div class="hostingpage-right-side">
+                <div class="hostingpage-links-container">
+                  <a href="index.html" class="hostingpage-navlink1">Home</a>
+                  <a href="eventmap.html" class="hostingpage-navlink2">Map</a>
+                  <span class="hostingpage-text">Host</span>
+                  <span class="hostingpage-text01">Message</span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/images-removebg-preview-200h.png"
+                  class="hostingpage-image"
+                />
+              </div>
+            </nav>
+          </div>
+          <form action="eventhost.php" method="post" class="hostingpage-form">
+            <div class="hostingpage-container3">
+              <div class="hostingpage-container4">
+                <h1 class="hostingpage-text02">EVENT REGISTRATION FORM</h1>
+              </div>
+              <input
+                type="number"
+                name="uniqueid"
+                disabled=""
+                placeholder="Unique Id"
+                class="input hostingpage-textinput"
+              />
+              <button type="button" class="button hostingpage-button">
+                Unique Id
+              </button>
+              <select name="eventtype" required="" class="hostingpage-select">
+                <option value="Event Type">Workshop</option>
+                <option value="Option 2">Paper</option>
+                <option value="Option 3">Project</option>
+              </select>
+              <select name="eventmode" required="" class="hostingpage-select1">
+                <option value="Mode" selected="">Mode</option>
+                <option value="Both">Both</option>
+                <option value="Offline">Offline</option>
+                <option value="Online">Online</option>
+              </select>
+              <button
+                name="eventlogo"
+                type="button"
+                class="button hostingpage-button1"
+              >
+                <span>
+                  <span>Upload</span>
+                  <br />
+                </span>
+              </button>
+              <textarea
+                name="eventdes"
+                placeholder="Description"
+                class="textarea hostingpage-textarea"
+              ></textarea>
+              <h1 class="hostingpage-text06">CONTACT DETAILS</h1>
+              <button
+                name="eventbanner"
+                type="button"
+                class="button hostingpage-button2"
+              >
+                Upload your Banner
+              </button>
+              <div class="hostingpage-container5">
+                <h1 class="hostingpage-text07">
+                  <br class="hostingpage-text08" />
+                  <span>REGISTRATION DETAILS</span>
+                  <br />
+                </h1>
+              </div>
+              <input
+                type="date"
+                name="startdate"
+                required=""
+                placeholder="Start  Date"
+                class="input hostingpage-textinput01"
+              />
+              <input
+                type="text"
+                name="Organiser"
+                required=""
+                autofocus=""
+                placeholder="organizer"
+                class="input hostingpage-textinput02"
+              />
+              <input
+                type="text"
+                name="websiteurl"
+                required=""
+                placeholder="Website URL"
+                class="input hostingpage-textinput03"
+              />
+              <input
+                type="text"
+                name="parttype"
+                placeholder="Type"
+                class="input hostingpage-textinput04"
+              />
+              <input
+                type="text"
+                name="accom"
+                required=""
+                placeholder="Accomodation"
+                class="input hostingpage-textinput05"
+              />
+              <input
+                type="text"
+                name="domain"
+                required=""
+                placeholder="Domain"
+                class="input hostingpage-textinput06"
+              />
+              <input
+                type="email"
+                name="pmail1"
+                required=""
+                placeholder="Email"
+                class="input hostingpage-textinput07"
+              />
+              <input
+                type="text"
+                name="person1"
+                required=""
+                placeholder="Name"
+                class="input hostingpage-textinput08"
+              />
+              <input
+                type="text"
+                name="clgurl"
+                required=""
+                placeholder="College URL"
+                class="input hostingpage-textinput09"
+              />
+              <input
+                type="text"
+                name="teamsize"
+                placeholder="Team Size"
+                class="input hostingpage-textinput10"
+              />
+              <input
+                type="text"
+                name="person2"
+                required=""
+                placeholder="Name"
+                class="input hostingpage-textinput11"
+              />
+              <input
+                type="email"
+                name="pmail2"
+                required=""
+                placeholder="Email"
+                class="input hostingpage-textinput12"
+              />
+              <input
+                type="text"
+                name="reglink"
+                required=""
+                placeholder="Registration Link"
+                class="input hostingpage-textinput13"
+              />
+              <input
+                type="text"
+                name="regfee"
+                placeholder="Registration fees"
+                class="input hostingpage-textinput14"
+              />
+              <input
+                type="number"
+                name="pphone1"
+                required=""
+                placeholder="+91"
+                class="input hostingpage-textinput15"
+              />
+              <input
+                type="number"
+                name="pphone2"
+                required=""
+                placeholder="+91"
+                class="input hostingpage-textinput16"
+              />
+              <input
+                type="text"
+                name="city"
+                required=""
+                placeholder="City"
+                class="input hostingpage-textinput17"
+              />
+              <input
+                type="text"
+                name="District"
+                required=""
+                placeholder="District"
+                class="input hostingpage-textinput18"
+              />
+              <input
+                type="text"
+                name="country"
+                placeholder="Country"
+                class="input hostingpage-textinput19"
+              />
+              <input
+                type="text"
+                name="state"
+                required=""
+                placeholder="State"
+                class="input hostingpage-textinput20"
+              />
+              <input
+                type="date"
+                name="enddate"
+                required=""
+                placeholder="End Date"
+                class="input hostingpage-textinput21"
+              />
+              <img
+                alt="image"
+                src="public/external/logo-200h.png"
+                class="hostingpage-image1"
+              />
+              <h1 class="hostingpage-text11">Organizer</h1>
+              <h1 class="hostingpage-text12">Event Description</h1>
+              <h1 class="hostingpage-text13">Event Related Tags</h1>
+              <h1 class="hostingpage-text14">Event Type</h1>
+              <h1 class="hostingpage-text15">
+                <span>Country</span>
+                <br />
+                <br />
+              </h1>
+              <h1 class="hostingpage-text19">Start Date</h1>
+              <h1 class="hostingpage-text20">End Date</h1>
+              <h1 class="hostingpage-text21">Event Mode</h1>
+              <h1 class="hostingpage-text22">&nbsp;Event Name</h1>
+              <input
+                type="text"
+                name="eventname"
+                required=""
+                placeholder="Event name"
+                class="input hostingpage-textinput22"
+              />
+              <h1 class="hostingpage-text23">State</h1>
+              <h1 class="hostingpage-text24">District</h1>
+              <h1 class="hostingpage-text25">City</h1>
+              <h1 class="hostingpage-text26">Website URL</h1>
+              <h1 class="hostingpage-text27">
+                <span>Participation</span>
+                <br />
+                <span>Type</span>
+              </h1>
+              <h1 class="hostingpage-text31">Accomodation</h1>
+              <h1 class="hostingpage-text32">Domain</h1>
+              <h1 class="hostingpage-text33">E mail</h1>
+              <h1 class="hostingpage-text34">E mail</h1>
+              <h1 class="hostingpage-text35">Phone num</h1>
+              <h1 class="hostingpage-text36">Phone num</h1>
+              <h1 class="hostingpage-text37">Person 1</h1>
+              <h1 class="hostingpage-text38">Person 2</h1>
+              <h1 class="hostingpage-text39">Team Size</h1>
+              <h1 class="hostingpage-text40">
+                <span>Registration</span>
+                <br />
+                <span>Link</span>
+              </h1>
+              <h1 class="hostingpage-text44">
+                <span>Registration</span>
+                <br />
+                <span>Fees</span>
+              </h1>
+              <h1 class="hostingpage-text48">
+                <span>College/</span>
+                <br />
+                <span>Industry URL</span>
+              </h1>
+              <textarea
+                name="keyword"
+                placeholder="Keywords separted by Comma"
+                class="textarea hostingpage-textarea1"
+              ></textarea>
+              <button
+                name="submit"
+                type="submit"
+                class="button hostingpage-button3"
+              >
+                <span>
+                  <span>Submit</span>
+                  <br />
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

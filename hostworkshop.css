@@ -1,0 +1,873 @@
+.hostworkshop-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hostworkshop-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.hostworkshop-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hostworkshop-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostworkshop-navlink {
+  text-decoration: none;
+}
+.hostworkshop-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostworkshop-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostworkshop-navlink1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostworkshop-navlink2 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostworkshop-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostworkshop-text01 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostworkshop-image {
+  width: 200px;
+  object-fit: cover;
+}
+.hostworkshop-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.hostworkshop-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostworkshop-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostworkshop-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hostworkshop-image1 {
+  width: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.hostworkshop-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.hostworkshop-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.hostworkshop-dropdown-arrow {
+  transition: 0.3s;
+}
+.hostworkshop-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+  transition: 0.3s;
+  margin-bottom: auto;
+}
+.hostworkshop-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: 4px;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.hostworkshop-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.hostworkshop-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 4px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.hostworkshop-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.hostworkshop-text62 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.hostworkshop-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.hostworkshop-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 4px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.hostworkshop-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.hostworkshop-text63 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.hostworkshop-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.hostworkshop-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 4px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.hostworkshop-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.hostworkshop-text64 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 1600px) {
+  .hostworkshop-container1 {
+    width: 100%;
+    height: 1974px;
+    position: relative;
+    background-color: #a46eaf;
+  }
+  .hostworkshop-container2 {
+    top: -9px;
+    right: -10px;
+    height: 81px;
+    position: absolute;
+    padding-left: 44px;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .hostworkshop-navbar {
+    height: 72px;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: 10px;
+  }
+  .hostworkshop-navlink1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostworkshop-navlink2 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostworkshop-text {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    border-color: #ff00ea;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+  .hostworkshop-text01 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostworkshop-image {
+    width: 40px;
+    height: 41px;
+  }
+  .hostworkshop-container3 {
+    top: 63px;
+    left: 288px;
+    width: 1041px;
+    height: 1789px;
+    position: absolute;
+    box-shadow: 5px 5px 20px 10px #611659;
+    margin-top: 20px;
+    align-items: flex-start;
+    border-color: #0a0a0a;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+  }
+  .hostworkshop-container4 {
+    height: 59px;
+    position: relative;
+    background-color: #060606;
+  }
+  .hostworkshop-text02 {
+    top: 16px;
+    left: 393px;
+    color: rgb(255, 253, 253);
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostworkshop-textinput {
+    left: 481px;
+    width: 217px;
+    bottom: 233px;
+    height: 34px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #d6cfcf;
+  }
+  .hostworkshop-button {
+    left: 321px;
+    bottom: 227px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(226, 220, 220);
+  }
+  .hostworkshop-select {
+    top: 442px;
+    left: 626px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostworkshop-button1 {
+    top: 206px;
+    left: 443px;
+    width: 96px;
+    height: 28px;
+    position: absolute;
+  }
+  .hostworkshop-textarea {
+    top: 337px;
+    left: 196px;
+    width: 642px;
+    height: 60px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #c0bbbb;
+  }
+  .hostworkshop-text06 {
+    top: 1171px;
+    left: 421px;
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostworkshop-button2 {
+    top: 787px;
+    left: 390px;
+    position: absolute;
+    box-shadow: 5px 5px 100px 0px #d4d4d4;
+  }
+  .hostworkshop-container5 {
+    top: 699px;
+    right: 0px;
+    height: 59px;
+    position: absolute;
+    background-color: #000000;
+  }
+  .hostworkshop-text07 {
+    top: -3px;
+    left: 406px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostworkshop-text08 {
+    font-size: 14px;
+  }
+  .hostworkshop-textinput01 {
+    top: 441px;
+    left: 190px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput02 {
+    top: 507px;
+    left: 192px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput03 {
+    top: 254px;
+    left: 196px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput04 {
+    top: 855px;
+    left: 217px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput05 {
+    top: 999px;
+    left: 220px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput06 {
+    top: 1283px;
+    left: 208px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput07 {
+    top: 1223px;
+    left: 207px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput08 {
+    top: 856px;
+    left: 636px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput09 {
+    top: 936px;
+    left: 638px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput10 {
+    top: 1376px;
+    left: 207px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput11 {
+    top: 1463px;
+    left: 209px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput12 {
+    top: 1003px;
+    left: 640px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput13 {
+    top: 1077px;
+    left: 642px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput14 {
+    top: 1224px;
+    left: 641px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput15 {
+    top: 1356px;
+    left: 642px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-textinput16 {
+    top: 572px;
+    right: 189px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput17 {
+    top: 570px;
+    left: 192px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput18 {
+    top: 633px;
+    left: 628px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput19 {
+    top: 632px;
+    left: 194px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-textinput20 {
+    top: 505px;
+    left: 629px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostworkshop-image1 {
+    top: 78px;
+    left: 418px;
+    width: 140px;
+    height: 109px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  .hostworkshop-text11 {
+    top: 255px;
+    left: 96px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text12 {
+    top: 310px;
+    left: 95px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text13 {
+    left: 99px;
+    bottom: 180px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text14 {
+    top: 445px;
+    left: 94px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text15 {
+    top: 636px;
+    left: 526px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text19 {
+    top: 510px;
+    left: 94px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text20 {
+    top: 511px;
+    left: 523px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text21 {
+    top: 443px;
+    left: 524px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text22 {
+    top: 249px;
+    left: 504px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-textinput21 {
+    top: 253px;
+    left: 614px;
+    width: 219px;
+    height: 29px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-text27 {
+    top: 637px;
+    left: 100px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text28 {
+    top: 563px;
+    left: 525px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text33 {
+    top: 858px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text34 {
+    top: 931px;
+    left: 105px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text38 {
+    top: 1006px;
+    left: 102px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text39 {
+    top: 1074px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text40 {
+    top: 1289px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text41 {
+    top: 1463px;
+    left: 110px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text42 {
+    top: 1229px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text43 {
+    top: 1361px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text44 {
+    top: 1225px;
+    left: 106px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text45 {
+    top: 1382px;
+    left: 108px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text46 {
+    top: 937px;
+    left: 532px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text47 {
+    top: 997px;
+    left: 532px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text51 {
+    top: 1070px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-text55 {
+    top: 858px;
+    left: 529px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostworkshop-textarea1 {
+    left: 205px;
+    width: 666px;
+    bottom: 95px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #c3b9b9;
+  }
+  .hostworkshop-button3 {
+    left: 469px;
+    bottom: 25px;
+    position: absolute;
+    box-shadow: 5px 5px 50px 0px #d4d4d4;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostworkshop-dropdown-toggle {
+    position: relative;
+  }
+  .hostworkshop-select1 {
+    top: 1069px;
+    left: 217px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostworkshop-select2 {
+    top: 927px;
+    left: 216px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostworkshop-text65 {
+    top: 568px;
+    left: 93px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+@media(max-width: 767px) {
+  .hostworkshop-right-side {
+    display: none;
+  }
+}

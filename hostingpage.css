@@ -1,0 +1,725 @@
+.hostingpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hostingpage-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.hostingpage-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hostingpage-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostingpage-navlink {
+  text-decoration: none;
+}
+.hostingpage-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostingpage-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostingpage-navlink1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostingpage-navlink2 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostingpage-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostingpage-text01 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostingpage-image {
+  width: 200px;
+  object-fit: cover;
+}
+.hostingpage-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.hostingpage-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostingpage-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostingpage-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hostingpage-image1 {
+  width: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+@media(max-width: 1600px) {
+  .hostingpage-container1 {
+    width: 100%;
+    height: 1960px;
+    position: relative;
+    background-color: #a46eaf;
+  }
+  .hostingpage-container2 {
+    top: -12px;
+    left: -3px;
+    height: 82px;
+    position: absolute;
+    padding-left: 44px;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .hostingpage-navbar {
+    height: 72px;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: 10px;
+  }
+  .hostingpage-navlink1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostingpage-navlink2 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostingpage-text {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    border-color: #ff00ea;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+  .hostingpage-text01 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostingpage-image {
+    width: 40px;
+    height: 41px;
+  }
+  .hostingpage-container3 {
+    top: 65px;
+    left: 263px;
+    width: 1041px;
+    height: 1789px;
+    position: absolute;
+    box-shadow: 5px 5px 20px 10px #611659;
+    margin-top: 20px;
+    align-items: flex-start;
+    border-color: #0a0a0a;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+  }
+  .hostingpage-container4 {
+    height: 59px;
+    position: relative;
+    background-color: #060606;
+  }
+  .hostingpage-text02 {
+    top: 16px;
+    left: 393px;
+    color: rgb(255, 253, 253);
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostingpage-textinput {
+    left: 481px;
+    width: 217px;
+    bottom: 233px;
+    height: 34px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #d6cfcf;
+  }
+  .hostingpage-button {
+    left: 321px;
+    bottom: 227px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(226, 220, 220);
+  }
+  .hostingpage-select {
+    top: 441px;
+    left: 192px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostingpage-select1 {
+    top: 442px;
+    left: 626px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostingpage-button1 {
+    top: 206px;
+    left: 443px;
+    width: 96px;
+    height: 28px;
+    position: absolute;
+  }
+  .hostingpage-textarea {
+    top: 337px;
+    left: 196px;
+    width: 642px;
+    height: 60px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #c0bbbb;
+  }
+  .hostingpage-text06 {
+    top: 1171px;
+    left: 421px;
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostingpage-button2 {
+    top: 787px;
+    left: 390px;
+    position: absolute;
+    box-shadow: 5px 5px 100px 0px #d4d4d4;
+  }
+  .hostingpage-container5 {
+    top: 699px;
+    right: 0px;
+    height: 59px;
+    position: absolute;
+    background-color: #000000;
+  }
+  .hostingpage-text07 {
+    top: -3px;
+    left: 406px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostingpage-text08 {
+    font-size: 14px;
+  }
+  .hostingpage-textinput01 {
+    top: 507px;
+    left: 192px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-textinput02 {
+    top: 254px;
+    left: 196px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput03 {
+    top: 855px;
+    left: 217px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput04 {
+    top: 933px;
+    left: 219px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput05 {
+    top: 999px;
+    left: 220px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput06 {
+    top: 1070px;
+    left: 217px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput07 {
+    top: 1283px;
+    left: 208px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput08 {
+    top: 1223px;
+    left: 207px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput09 {
+    top: 856px;
+    left: 636px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput10 {
+    top: 936px;
+    left: 638px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput11 {
+    top: 1376px;
+    left: 207px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput12 {
+    top: 1463px;
+    left: 209px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput13 {
+    top: 1003px;
+    left: 640px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput14 {
+    top: 1077px;
+    left: 642px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput15 {
+    top: 1224px;
+    left: 641px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput16 {
+    top: 1356px;
+    left: 642px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-textinput17 {
+    top: 570px;
+    left: 194px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-textinput18 {
+    top: 568px;
+    left: 631px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-textinput19 {
+    top: 633px;
+    left: 628px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-textinput20 {
+    top: 632px;
+    left: 194px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-textinput21 {
+    top: 505px;
+    left: 629px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostingpage-image1 {
+    top: 78px;
+    left: 418px;
+    width: 140px;
+    height: 109px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  .hostingpage-text11 {
+    top: 255px;
+    left: 96px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text12 {
+    top: 310px;
+    left: 95px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text13 {
+    left: 99px;
+    bottom: 180px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text14 {
+    top: 445px;
+    left: 94px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text15 {
+    top: 636px;
+    left: 526px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text19 {
+    top: 510px;
+    left: 94px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text20 {
+    top: 511px;
+    left: 523px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text21 {
+    top: 443px;
+    left: 524px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text22 {
+    top: 254px;
+    left: 520px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-textinput22 {
+    top: 247px;
+    left: 620px;
+    width: 219px;
+    height: 29px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostingpage-text23 {
+    top: 637px;
+    left: 100px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text24 {
+    top: 574px;
+    left: 525px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text25 {
+    top: 576px;
+    left: 100px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text26 {
+    top: 858px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text27 {
+    top: 931px;
+    left: 105px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text31 {
+    top: 1006px;
+    left: 102px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text32 {
+    top: 1074px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text33 {
+    top: 1289px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text34 {
+    top: 1463px;
+    left: 110px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text35 {
+    top: 1229px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text36 {
+    top: 1361px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text37 {
+    top: 1225px;
+    left: 106px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text38 {
+    top: 1382px;
+    left: 108px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text39 {
+    top: 937px;
+    left: 532px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text40 {
+    top: 997px;
+    left: 532px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text44 {
+    top: 1070px;
+    left: 533px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-text48 {
+    top: 858px;
+    left: 529px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostingpage-textarea1 {
+    left: 205px;
+    width: 666px;
+    bottom: 95px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #c3b9b9;
+  }
+  .hostingpage-button3 {
+    left: 469px;
+    bottom: 25px;
+    position: absolute;
+    box-shadow: 5px 5px 50px 0px #d4d4d4;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+}
+@media(max-width: 767px) {
+  .hostingpage-right-side {
+    display: none;
+  }
+}

@@ -1,0 +1,221 @@
+.eventuniversitiesmap-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.eventuniversitiesmap-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventuniversitiesmap-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventuniversitiesmap-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventuniversitiesmap-navlink {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.eventuniversitiesmap-navlink1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.eventuniversitiesmap-navlink2 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.eventuniversitiesmap-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.eventuniversitiesmap-image {
+  width: 200px;
+  object-fit: cover;
+}
+.eventuniversitiesmap-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.eventuniversitiesmap-container2 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.eventuniversitiesmap-container3 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 1600px) {
+  .eventuniversitiesmap-navbar {
+    align-self: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: 10px;
+  }
+  .eventuniversitiesmap-logo {
+    color: #9309a4;
+  }
+  .eventuniversitiesmap-navlink {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventuniversitiesmap-navlink1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    border-color: #0056f3;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+  .eventuniversitiesmap-navlink2 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventuniversitiesmap-text {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .eventuniversitiesmap-image {
+    width: 40px;
+    height: 41px;
+  }
+  .eventuniversitiesmap-container1 {
+    height: 660px;
+    position: relative;
+  }
+  .eventuniversitiesmap-container2 {
+    left: 322px;
+    width: 1200px;
+    bottom: -4px;
+    height: 100%;
+    position: absolute;
+  }
+  .eventuniversitiesmap-container3 {
+    left: 0px;
+    width: 322px;
+    bottom: 2px;
+    height: 658px;
+    position: absolute;
+    background-color: #d7ebeb;
+  }
+  .eventuniversitiesmap-text1 {
+    top: 58px;
+    left: 40px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-textinput {
+    top: 112px;
+    left: 85px;
+    width: 189px;
+    height: 28px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-text2 {
+    top: 168px;
+    left: 39px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-textinput1 {
+    top: 206px;
+    left: 84px;
+    width: 193px;
+    height: 32px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-text3 {
+    top: 267px;
+    left: 39px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-textinput2 {
+    top: 322px;
+    left: 84px;
+    width: 195px;
+    height: 34px;
+    position: absolute;
+  }
+  .eventuniversitiesmap-button {
+    left: 30px;
+    color: #ffffff;
+    bottom: 199px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 0px;
+    padding-right: 1em;
+    background-color: #151e9a;
+  }
+  .eventuniversitiesmap-button1 {
+    left: 170px;
+    color: rgb(255, 255, 255);
+    bottom: 198px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 0px;
+    padding-right: 1em;
+    background-color: rgb(21, 30, 154);
+  }
+}
+@media(max-width: 1200px) {
+  .eventuniversitiesmap-container {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+}
+@media(max-width: 767px) {
+  .eventuniversitiesmap-right-side {
+    display: none;
+  }
+}

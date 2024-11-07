@@ -1,0 +1,521 @@
+.hostiv-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hostiv-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.hostiv-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hostiv-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostiv-navlink {
+  text-decoration: none;
+}
+.hostiv-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostiv-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hostiv-navlink1 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostiv-navlink2 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.hostiv-text {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostiv-text01 {
+  font-weight: bold;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.hostiv-image {
+  width: 200px;
+  object-fit: cover;
+}
+.hostiv-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.hostiv-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostiv-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hostiv-image1 {
+  width: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+@media(max-width: 1600px) {
+  .hostiv-container1 {
+    height: 1534px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #a46eaf;
+  }
+  .hostiv-container2 {
+    top: -17px;
+    right: -2px;
+    height: 83px;
+    position: absolute;
+    padding-left: 44px;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .hostiv-navbar {
+    height: 72px;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: 10px;
+  }
+  .hostiv-navlink1 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostiv-navlink2 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostiv-text {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    border-color: #ff00ea;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+  .hostiv-text01 {
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+  }
+  .hostiv-image {
+    width: 40px;
+    height: 41px;
+  }
+  .hostiv-container3 {
+    top: 61px;
+    left: 277px;
+    width: 1009px;
+    height: 1228px;
+    position: absolute;
+    box-shadow: 5px 5px 20px 10px #611659;
+    margin-top: 20px;
+    align-items: center;
+    border-color: #0a0a0a;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+  }
+  .hostiv-container4 {
+    height: 59px;
+    position: relative;
+    background-color: #060606;
+  }
+  .hostiv-text02 {
+    top: 16px;
+    left: 393px;
+    color: rgb(255, 253, 253);
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostiv-textinput {
+    left: 481px;
+    width: 217px;
+    bottom: 233px;
+    height: 34px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #d6cfcf;
+  }
+  .hostiv-button {
+    left: 321px;
+    bottom: 227px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(226, 220, 220);
+  }
+  .hostiv-select {
+    top: 394px;
+    left: 197px;
+    width: 226px;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #e1dddd;
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: bfbdbd;
+  }
+  .hostiv-button1 {
+    top: 206px;
+    left: 443px;
+    width: 96px;
+    height: 28px;
+    position: absolute;
+  }
+  .hostiv-text06 {
+    top: 634px;
+    left: 405px;
+    position: absolute;
+    font-size: 14px;
+  }
+  .hostiv-textinput01 {
+    top: 460px;
+    left: 199px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostiv-textinput02 {
+    top: 254px;
+    left: 196px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput03 {
+    top: 390px;
+    left: 617px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput04 {
+    top: 765px;
+    left: 189px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput05 {
+    top: 690px;
+    left: 191px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput06 {
+    top: 459px;
+    left: 618px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput07 {
+    top: 838px;
+    left: 190px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput08 {
+    left: 190px;
+    width: 222px;
+    bottom: 315px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput09 {
+    top: 685px;
+    left: 619px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput10 {
+    top: 835px;
+    left: 622px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-textinput11 {
+    top: 541px;
+    left: 196px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostiv-textinput12 {
+    top: 322px;
+    left: 616px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostiv-textinput13 {
+    top: 321px;
+    left: 199px;
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfbdbd;
+  }
+  .hostiv-image1 {
+    top: 78px;
+    left: 418px;
+    width: 140px;
+    height: 109px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  .hostiv-text07 {
+    top: 255px;
+    left: 96px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text08 {
+    top: 310px;
+    left: 95px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text12 {
+    left: 99px;
+    bottom: 180px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text13 {
+    top: 392px;
+    left: 97px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text14 {
+    top: 451px;
+    left: 91px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text18 {
+    top: 395px;
+    left: 532px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text21 {
+    top: 326px;
+    left: 521px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text22 {
+    top: 256px;
+    left: 528px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-textinput14 {
+    top: 254px;
+    left: 613px;
+    width: 219px;
+    height: 29px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+  .hostiv-text23 {
+    top: 538px;
+    left: 104px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text24 {
+    top: 461px;
+    left: 521px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text25 {
+    top: 772px;
+    left: 107px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text26 {
+    left: 110px;
+    bottom: 318px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text27 {
+    top: 688px;
+    left: 520px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text28 {
+    left: 522px;
+    bottom: 393px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text29 {
+    top: 692px;
+    left: 102px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-text30 {
+    top: 844px;
+    left: 101px;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hostiv-textarea {
+    left: 205px;
+    width: 666px;
+    bottom: 95px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #c3b9b9;
+  }
+  .hostiv-button2 {
+    left: 469px;
+    bottom: 25px;
+    position: absolute;
+    box-shadow: 5px 5px 50px 0px #d4d4d4;
+    border-radius: 10px;
+    background-color: #bfb8b8;
+  }
+}
+@media(max-width: 767px) {
+  .hostiv-right-side {
+    display: none;
+  }
+}

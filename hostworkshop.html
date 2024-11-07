@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hostworkshop - Wizalerts</title>
+    <meta property="og:title" content="hostworkshop - Wizalerts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./hostworkshop.css" rel="stylesheet" />
+
+      <div class="hostworkshop-container">
+        <div class="hostworkshop-container1">
+          <div class="hostworkshop-container2">
+            <nav data-role="Header" class="hostworkshop-navbar">
+              <a href="hostpre.html" class="hostworkshop-navlink button">
+                &lt;- go back
+              </a>
+              <div class="hostworkshop-right-side">
+                <div class="hostworkshop-links-container">
+                  <a href="index.html" class="hostworkshop-navlink1">Home</a>
+                  <a href="eventmap.html" class="hostworkshop-navlink2">Map</a>
+                  <span class="hostworkshop-text">Host</span>
+                  <span class="hostworkshop-text01">Message</span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/images-removebg-preview-200h.png"
+                  class="hostworkshop-image"
+                />
+              </div>
+            </nav>
+          </div>
+          <form action="eventhost.php" method="post" class="hostworkshop-form">
+            <div class="hostworkshop-container3">
+              <div class="hostworkshop-container4">
+                <h1 class="hostworkshop-text02">WORKSHOP REGISTRATION FORM</h1>
+              </div>
+              <input
+                type="text"
+                name="uniqueid"
+                placeholder="Unique Id"
+                class="input hostworkshop-textinput"
+              />
+              <button type="button" class="button hostworkshop-button">
+                Unique Id
+              </button>
+              <select name="mode" required="" class="hostworkshop-select">
+                <option value="Mode" selected="">Mode</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Both">Both</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Offline">Offline</option>
+                <option value="Online">Online</option>
+                <option value="Option 3">Option 3</option>
+              </select>
+              <button
+                name="eventlogo"
+                type="button"
+                class="button hostworkshop-button1"
+              >
+                <span>
+                  <span>Upload</span>
+                  <br />
+                </span>
+              </button>
+              <textarea
+                name="description"
+                placeholder="Description"
+                class="textarea hostworkshop-textarea"
+              ></textarea>
+              <h1 class="hostworkshop-text06">CONTACT DETAILS</h1>
+              <button
+                name="eventbanner"
+                type="button"
+                class="button hostworkshop-button2"
+              >
+                Upload your Banner
+              </button>
+              <div class="hostworkshop-container5">
+                <h1 class="hostworkshop-text07">
+                  <br class="hostworkshop-text08" />
+                  <span>REGISTRATION DETAILS</span>
+                  <br />
+                </h1>
+              </div>
+              <input
+                type="text"
+                name="duration"
+                required=""
+                placeholder="Duration"
+                class="input hostworkshop-textinput01"
+              />
+              <input
+                type="date"
+                name="startdate"
+                required=""
+                placeholder="Start  Date"
+                class="input hostworkshop-textinput02"
+              />
+              <input
+                type="text"
+                name="organiser"
+                required=""
+                autofocus=""
+                placeholder="organizer"
+                class="input hostworkshop-textinput03"
+              />
+              <input
+                type="text"
+                name="websiteurl"
+                required=""
+                placeholder="Website URL"
+                class="input hostworkshop-textinput04"
+              />
+              <input
+                type="text"
+                name="accom"
+                placeholder="Accomodation"
+                class="input hostworkshop-textinput05"
+              />
+              <input
+                type="email"
+                name="pmail1"
+                required=""
+                placeholder="Email"
+                class="input hostworkshop-textinput06"
+              />
+              <input
+                type="text"
+                name="person1"
+                required=""
+                placeholder="Name"
+                class="input hostworkshop-textinput07"
+              />
+              <input
+                type="text"
+                name="clgurl"
+                required=""
+                placeholder="College URL"
+                class="input hostworkshop-textinput08"
+              />
+              <input
+                type="number"
+                name="minage"
+                placeholder="min age"
+                class="input hostworkshop-textinput09"
+              />
+              <input
+                type="text"
+                name="person2"
+                required=""
+                placeholder="Name"
+                class="input hostworkshop-textinput10"
+              />
+              <input
+                type="email"
+                name="pmail2"
+                required=""
+                placeholder="Email"
+                class="input hostworkshop-textinput11"
+              />
+              <input
+                type="text"
+                name="reglink"
+                required=""
+                placeholder="Registration Link"
+                class="input hostworkshop-textinput12"
+              />
+              <input
+                type="text"
+                name="regfee"
+                placeholder="Registration fees"
+                class="input hostworkshop-textinput13"
+              />
+              <input
+                type="number"
+                name="pphone1"
+                required=""
+                placeholder="+91"
+                class="input hostworkshop-textinput14"
+              />
+              <input
+                type="number"
+                name="pphone2"
+                required=""
+                placeholder="+91"
+                class="input hostworkshop-textinput15"
+              />
+              <input
+                type="text"
+                name="location"
+                placeholder="Location"
+                class="input hostworkshop-textinput16"
+              />
+              <input
+                type="text"
+                name="title"
+                required=""
+                placeholder="Title"
+                class="input hostworkshop-textinput17"
+              />
+              <input
+                type="text"
+                name="country"
+                placeholder="Country"
+                class="input hostworkshop-textinput18"
+              />
+              <input
+                type="text"
+                name="state"
+                placeholder="State"
+                class="input hostworkshop-textinput19"
+              />
+              <input
+                type="date"
+                name="enddate"
+                required=""
+                placeholder="End Date"
+                class="input hostworkshop-textinput20"
+              />
+              <img
+                alt="image"
+                src="public/external/logo-200h.png"
+                class="hostworkshop-image1"
+              />
+              <h1 class="hostworkshop-text11">Organizer</h1>
+              <h1 class="hostworkshop-text12">Workshop Description</h1>
+              <h1 class="hostworkshop-text13">Workshop Related Tags</h1>
+              <h1 class="hostworkshop-text14">Duration</h1>
+              <h1 class="hostworkshop-text15">
+                <span>Country</span>
+                <br />
+                <br />
+              </h1>
+              <h1 class="hostworkshop-text19">Start Date</h1>
+              <h1 class="hostworkshop-text20">End Date</h1>
+              <h1 class="hostworkshop-text21">&nbsp; &nbsp; &nbsp;Mode</h1>
+              <h1 class="hostworkshop-text22">
+                <span>presenter/</span>
+                <br />
+                <span>Speaker</span>
+                <br />
+              </h1>
+              <input
+                type="text"
+                name="name"
+                required=""
+                placeholder="Name"
+                class="input hostworkshop-textinput21"
+              />
+              <h1 class="hostworkshop-text27">State</h1>
+              <h1 class="hostworkshop-text28">
+                <span>Location/</span>
+                <br />
+                <span>Platform</span>
+                <br />
+              </h1>
+              <h1 class="hostworkshop-text33">Website URL</h1>
+              <h1 class="hostworkshop-text34">
+                <span>Participation</span>
+                <br />
+                <span>Type</span>
+              </h1>
+              <h1 class="hostworkshop-text38">Accomodation</h1>
+              <h1 class="hostworkshop-text39">Domain</h1>
+              <h1 class="hostworkshop-text40">E mail</h1>
+              <h1 class="hostworkshop-text41">E mail</h1>
+              <h1 class="hostworkshop-text42">Phone num</h1>
+              <h1 class="hostworkshop-text43">Phone num</h1>
+              <h1 class="hostworkshop-text44">Person 1</h1>
+              <h1 class="hostworkshop-text45">Person 2</h1>
+              <h1 class="hostworkshop-text46">Min age</h1>
+              <h1 class="hostworkshop-text47">
+                <span>Registration</span>
+                <br />
+                <span>Link</span>
+              </h1>
+              <h1 class="hostworkshop-text51">
+                <span>Registration</span>
+                <br />
+                <span>Fees</span>
+              </h1>
+              <h1 class="hostworkshop-text55">
+                <span>College/</span>
+                <br />
+                <span>Industry URL</span>
+              </h1>
+              <textarea
+                name="keyword"
+                placeholder="Keywords separted by Comma"
+                class="textarea hostworkshop-textarea1"
+              ></textarea>
+              <button
+                name="submit"
+                type="submit"
+                class="button hostworkshop-button3"
+              >
+                <span>
+                  <span>Submit</span>
+                  <br />
+                </span>
+              </button>
+              <div
+                data-thq="thq-dropdown"
+                class="hostworkshop-thq-dropdown list-item"
+              >
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="hostworkshop-dropdown-toggle"
+                >
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    class="hostworkshop-dropdown-arrow"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="hostworkshop-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data-thq="thq-dropdown-list"
+                  class="hostworkshop-dropdown-list"
+                >
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostworkshop-dropdown list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostworkshop-dropdown-toggle1"
+                    >
+                      <span class="hostworkshop-text62">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostworkshop-dropdown1 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostworkshop-dropdown-toggle2"
+                    >
+                      <span class="hostworkshop-text63">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    class="hostworkshop-dropdown2 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="hostworkshop-dropdown-toggle3"
+                    >
+                      <span class="hostworkshop-text64">Sub-menu Item</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <select
+                name="eventtype"
+                type="domain"
+                required=""
+                class="hostworkshop-select1"
+              >
+                <option value="computer science" selected="">
+                  Computer science
+                </option>
+                <option value="electrics and electronics">
+                  Electrics And Electronics
+                </option>
+                <option value="agriculture">Agriculture</option>
+                <option value="cloud computing">Cloud Computing</option>
+                <option value="cybersecurity">Cybersecurity</option>
+                <option value="iot">IOT</option>
+                <option value="others">Others</option>
+              </select>
+              <select
+                name="eventtype"
+                type="paticipationtype"
+                required=""
+                class="hostworkshop-select2"
+              >
+                <option value="both" selected="">Both</option>
+                <option value="team">Team</option>
+                <option value="individual">Individual</option>
+              </select>
+              <h1 class="hostworkshop-text65">
+                <span>Workshop</span>
+                <br />
+                <span>Title</span>
+              </h1>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
